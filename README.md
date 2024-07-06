@@ -1,15 +1,13 @@
-# Adquisión de información relativa de colesterol basada en PPG
-El siguiente conjunto de datos incluye registros de PPG de 46 sujetos, entre ellos 12 con nivel de colesterol alto, 18 medio alto y 16 con nivel de colesterol óptimo. Este conjunto de datos está destinado a contribuir con el desarrollo de cualquier estudio enfocado en la estimación de colesterol basado el análisis de señales de PPG.
-# Adquisión de datos 
-Los datos se recopilaron en el entorno cotidiano y cada uno de los 46 registros del conjunto de datos contenía una señal PPG de 2 minutos (120 s), muestreados a 50 Hz (fs = 50 Hz)
-# Descripción de datos 
-46 sujetos (32 hombres y 14 mujeres) participaron en la captura de señales de PPG, La edad media fue de 56,93 ± 12,85 años. Ademas, dentro de la información que se recopilo esta si el sujeto tomaba de algun medicamento para la hipercolesterolemia, el padecimiento de alguna otra enfermedad. el peso y la estura. En el archivo de Excel, "Datos_sujetos_PPG.xlsx", cada item se refiere a:
-
-N° del registro:
-Genero:
-Edad: 
-Peso:
-Estatura:
-Medicado: 
-Valor del colesterol (mg/dl): 
-PerfilL: Clasificación según la guía del ATP III ( CA= colesterol alto, CM= colesterol medio alto y CO= colesterol óptimo)
+# Cholesterol levels estimation via PPG-based features
+This data set contains PPG recordings from 46 non-hospitalized subjects and is intended to support developing and validating approaches for estimating blood cholesterol levels by analyzing PPG signals.
+# Data acquisition 
+The data were collected in a laboratory (i.e., no individual was hospitalized) for 2 minutes at a sampling rate of 100 Hz.
+# Description 
+46 subjects (32 men and 14 women) were recruited to capture PPG signals and assess their cholesterol levels via blood-lipid test. The mean age was 56,93 ± 12,85 años. years. In addition, information was collected on whether they had been diagnosed with any cardiovascular risk factor and were undergoing any treatment. In the MSExcel file, "Datos_Registros_PPG.xlsx", the information regarding each subject is summarized as follows:
+Record #: name of the record associated with each individual, 'sujeto##_PPG" (where ## is the subject's number).
+Age: range between  years old.
+Gender: Male or Female.
+Treatment: 'y', is under treatment, on the other hand, 'n', isn’t under treatment.
+Category: According to ATPIII Guidelines (low, medium, or high cholesterol level)
+# When using this resource, please cite the original publication
+A. V. Villota Ojeda, M. Y. Villota Ojeda, E. J. Argüello-Prada, PPG-Cholesterol Dataset, 28 June 2024. [Online]. Available: https://github.com/Angievv27/Adquisici-n-de-informaci-n-relativa-de-colesterol-basada-en-PPG/tree/main "
